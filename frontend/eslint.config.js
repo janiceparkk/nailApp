@@ -1,10 +1,10 @@
 // eslint.config.js
-import js from "@eslint/js"
-import globals from "globals"
-import pluginReact from "eslint-plugin-react"
-import pluginPrettier from "eslint-plugin-prettier"
-import babelParser from "@babel/eslint-parser"
-import { defineConfig } from "eslint/config"
+import js from "@eslint/js";
+import globals from "globals";
+import pluginReact from "eslint-plugin-react";
+import pluginPrettier from "eslint-plugin-prettier";
+import babelParser from "@babel/eslint-parser";
+import { defineConfig } from "eslint/config";
 
 export default defineConfig([
     {
@@ -35,4 +35,4 @@ export default defineConfig([
             "prettier/prettier": "warn",
         },
     },
-])
+]);
